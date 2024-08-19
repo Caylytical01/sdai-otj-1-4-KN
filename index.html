@@ -5,129 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dev Dish</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        footer {
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 10px;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-        }
-
-
-        .navbar {
-            background-color: #333;
-            overflow: hidden;
-            position: fixed;
-            top: 0;
-            width: 100%;
-            z-index: 1000;
-        }
-
-        .navbar a {
-            float: left;
-            display: block;
-            color: #f2f2f2;
-            text-align: center;
-            padding: 14px 20px;
-            text-decoration: none;
-        }
-
-        .navbar a:hover {
-            background-color: #ddd;
-            color: black;
-        }
-
-
-        .hero-section img {
-            background: no-repeat center center/cover;
-            height: 100vh;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: white;
-            text-align: center;
-            padding: 0 20px;
-        }
-
-        .hero-section h1 {
-            font-size: 50px;
-            padding-top: 10px;
-            padding-bottom: 10px;
-            text-align: center;
-        }
-
-        .hero-section p {
-            font-size: 20px;
-        }
-
-        /* Content sections styling */
-        .section {
-            padding: 60px 20px;
-        }
-
-        #about {
-            background-color: #f2f2f2;
-        }
-
-        #menu {
-            background-color: #f2f2f2;
-        }
-
-        #Devfavorites {
-            background-color: #f2f2f2;
-        }
-
-        #location {
-            background-color: #f2f2f2;
-            margin-bottom: 0px;
-        }
-
-        #hours {
-            background-color: #f2f2f2;
-            margin-top: 0px;
-        }
-
-        .day {
-            font-weight: bold;
-        }
-
-        .time {
-            color: #666;
-        }
-
-        .social-icons {
-            list-style: none;
-            padding: 0;
-            margin: 0;
-        }
-
-        .social-icons li {
-            display: inline;
-            margin: 0 10px;
-        }
-
-        .social-icons a {
-            color: white;
-            text-decoration: none;
-            font-size: 24px;
-        }
-
-        .social-icons a:hover {
-            color: #ddd;
-        }
-
-    </style>
 </head>
 
 <body>
@@ -143,7 +20,7 @@
     </div>
 
     <!-- Hero Section -->
-    <div id="hero-image" class="hero-section">
+    <div class="hero-section">
         <div>
             <h1>Dev Dish Food Truck & Restaurant</h1>
             <img src="assets/images/cesar-bretana-gonzalez-a3dhUC7EhYg-unsplash.jpg" alt="Restaurant"
@@ -151,7 +28,7 @@
     </div>
 
     <!-- About Section -->
-    <div id="about" class="section">
+    <div>
         <h2>About Us</h2>
         <p>What's so great about combining the worlds of coding and cuisine? Dev Dish was founded by two passionate developers who turned their love for software into a culinary adventure. After years of coding by day and cooking by night, they decided to merge their two passions and create something extraordinary.</p>
         <p>Dev Dish brings a unique twist to the food truck scene, offering a menu full of creative, tech-inspired dishes. Whether you're a tech enthusiast or a food lover, our offerings are designed to satisfy both your appetite and your curiosity.</p>
@@ -159,7 +36,7 @@
     </div>
 
     <!-- Menu Section -->
-    <div id="menu" class="section">
+    <div>
         <h2>The Dev Dish Quarterly Menu</h2>
         <!-- Wraps Section -->
         <h3>Wraps</h3>
@@ -197,70 +74,70 @@
         <h3>Sides</h3>
         <ul>
             <li>
-                <strong>Bug-Free Fries</strong>
+                <p>Bug-Free Fries</p>
                 <p>Just a side of fries</p>
             </li>
             <li>
-                <strong>Three-Layer Cheese Fries</strong>
+                <p>Three-Layer Cheese Fries</p>
                 <p>Fries topped with havarti and dill cheese, pastrami, Russian dressing, pickled onions and peppers, pickled jalapeno</p>
             </li>
             <li>
-                <strong>Golden Ratio Fries</strong>
+                <p>Golden Ratio Fries</p>
                 <p>Fries topped with havarti and dill cheese, pastrami, Russian dressing, pickled onions and peppers, pickled jalapeno</p>
             </li>
             <li>
-                <strong>Compile Chips</strong>
+                <p>Compile Chips</p>
                 <p>Tortilla chips and salsa verde</p>
             </li>
         </ul>
     </div>
 
     <!-- Developer Favorites Section -->
-    <div id="Devfavorites" class="section">
+    <div>
         <h2>The Developer's Favorites</h2>
         <p>Enjoy Dev Dish fan favorite menu items at local events or book us for a visit to your neighborhood or for your special occasion.</p>
     </div>
 
     <!-- Location Section -->
-    <div id="location" class="section">
+    <div>
         <h1>Location and Hours</h1>
         <h2>Location</h2>
         <p>511 Tristin Isle Park Hudsonton, Michigan</p>
     </div>
 
     <!-- Hours Section -->
-    <div id="hours" class="section">
+    <div>
         <h2>Hours</h2>
         <ul>
             <li>
-                <span class="day">Monday:</span> <span class="time">10am-7pm</span>
+                <span>Monday:</span> <span>10am-7pm</span>
             </li>
             <li>
-                <span class="day">Tuesday:</span> <span class="time">10am-7pm</span>
+                <span>Tuesday:</span> <span>10am-7pm</span>
             </li>
             <li>
-                <span class="day">Wednesday:</span> <span class="time">10am-7pm</span>
+                <span>Wednesday:</span> <span>10am-7pm</span>
             </li>
             <li>
-                <span class="day">Thursday:</span> <span class="time">10am-10pm</span>
+                <span>Thursday:</span> <span>10am-10pm</span>
             </li>
             <li>
-                <span class="day">Friday:</span> <span class="time">10am-9pm</span>
+                <span>Friday:</span> <span>10am-9pm</span>
             </li>
             <li>
-                <span class="day">Saturday:</span> <span class="time">12pm-11pm</span>
+                <span>Saturday:</span> <span>12pm-11pm</span>
             </li>
             <li>
-                <span class="day">Sunday:</span> <span class="time">12pm-11pm</span>
+                <span>Sunday:</span> <span>12pm-11pm</span>
             </li>
         </ul>
     </div>
 
     <footer>
-        <ul class="social-icons">
-            <li><a href="https://facebook.com" target="_blank" title="Facebook" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a></li>
-            <li><a href="https://twitter.com" target="_blank" title="Twitter" aria-label="Twitter"><i class="fab fa-twitter"></i></a></li>
-            <li><a href="https://instagram.com" target="_blank" title="Instagram" aria-label="Instagram"><i class="fab fa-instagram"></i></a></li>
+        <ul>
+            <li><p>Facebook</p></li>
+            <li><p><Twitter</p></li>
+            <li><p>Instagram</p></li>
         </ul>
     </footer>
 </body>
