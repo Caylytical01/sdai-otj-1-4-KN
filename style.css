@@ -1,16 +1,52 @@
-#menu 
-{
-    display:inline;
-    width: 800px;
-}
-h1, h2, h3, h4
-{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', sans-serif;
-    font-size: 1.5rem;
-    color: black;
-    margin: 1em;
-}
-.section{
-    background-color: cornflowerblue;
+/* Base Styles */
+h1,h2,h3,h4 {
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f4;
 }
 
+/* Header Styles */
+.header {
+    background: #1e1219;
+    color: #f9e4cc;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+/* Navigation Link Styles */
+nav ul {
+    list-style: none;
+}
+
+.nav-link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+    color: #ffddb7;
+}
+
+/* Image Styles */
+.about-img {
+    height: 30vh;
+}
+
+/* Footer Styles */
+.footer {
+    background: #1e1219;
+    color: #f9e4cc;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+
+/* Section Styles */
+.section {
+    text-align: center;
+}
