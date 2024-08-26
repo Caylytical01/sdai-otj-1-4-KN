@@ -1,14 +1,16 @@
-#menu{
+#menu 
+{
     display:inline;
     width: 800px;
 }
-h1, h2, h3, h4{
+h1, h2, h3, h4
+{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', sans-serif;
     font-size: 1.5rem;
     color: black;
     margin: 1em;
 }
-section{
+.section{
     background-color: cornflowerblue;
 }
 
