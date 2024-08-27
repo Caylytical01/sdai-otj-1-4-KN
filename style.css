@@ -58,8 +58,13 @@ nav ul {
     text-align: center;
 }
 
-.footer{
+.footer 
+{
     display: flex;
     justify-content: center;
     gap: 2r
+}
+.footer ul 
+{
+    display: inline-flex;
 }
