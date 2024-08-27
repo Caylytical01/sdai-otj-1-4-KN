@@ -57,3 +57,9 @@ nav ul {
 {
     text-align: center;
 }
+
+.footer{
+    display: flex;
+    justify-content: center;
+    gap: 2r
+}
