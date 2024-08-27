@@ -69,3 +69,6 @@ nav ul {
     display: inline-flex;
     gap: 2rem;
 }
+.hours ul li{
+    text-align: center;
+}
