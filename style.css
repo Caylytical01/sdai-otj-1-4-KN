@@ -67,4 +67,5 @@ nav ul {
 .footer ul 
 {
     display: inline-flex;
+    gap: 2rem;
 }
