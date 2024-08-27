@@ -48,7 +48,7 @@ nav ul {
     gap: 2rem
 }
 
-#id ul 
+#hours ul 
 {
    text-align: center;
 }
@@ -59,6 +59,10 @@ nav ul {
 }
 
 #Devfavorites p 
+{
+    text-align: center;
+}
+#menu ul
 {
     text-align: center;
 }
