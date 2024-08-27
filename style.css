@@ -47,3 +47,18 @@ nav ul {
     justify-content: center;
     gap: 2rem
 }
+
+#id ul 
+{
+   text-align: center;
+}
+
+#location address
+{
+    text-align: center;
+}
+
+#Devfavorites p 
+{
+    text-align: center;
+}
