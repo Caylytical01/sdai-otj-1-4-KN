@@ -48,7 +48,7 @@ nav ul {
     gap: 2rem
 }
 
-#hours ul 
+#hours ul li
 {
    text-align: center;
 }
@@ -62,7 +62,7 @@ nav ul {
 {
     text-align: center;
 }
-#menu ul
+#menu ul li
 {
     text-align: center;
 }
