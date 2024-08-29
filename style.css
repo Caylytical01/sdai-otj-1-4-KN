@@ -97,13 +97,13 @@ nav ul {
 {
     width: 50px;
     height: 40px;
+    justify-content: center;
 }
 
 footer 
 {
     margin: 0 auto;
     width: 500px;
-    justify-content: center;
 }
 
 /* Hours */
