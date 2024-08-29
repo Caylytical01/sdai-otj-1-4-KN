@@ -103,6 +103,7 @@ footer
 {
     margin: 0 auto;
     width: 500px;
+    justify-content: center;
 }
 
 /* Hours */
