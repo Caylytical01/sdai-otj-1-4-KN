@@ -49,16 +49,30 @@ nav ul {
     color:#ffffff
 }
 
+/* Menu */
+.Quarterly-menu h4
+{
+    font-weight:bold;
+}
+
+.Quarterly-menu p
+{
+ text-align: center;
+}
+
+/* Location*/
 #location address
 {
     text-align: center;
 }
 
+/* Dev Favorites*/
 #Devfavorites p 
 {
     text-align: center;
 }
 
+/* Footer */
 .footer 
 {
     display: flex;
@@ -70,6 +84,8 @@ nav ul {
     display: inline-flex;
     gap: 2rem;
 }
+
+/* Hours */
 .hours ul li{
     text-align: center;
 }
