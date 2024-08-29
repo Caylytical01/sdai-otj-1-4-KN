@@ -90,3 +90,7 @@ nav ul {
 {
     text-align: center;
 }
+.day-time ul 
+{
+    display: inline-block;
+}
