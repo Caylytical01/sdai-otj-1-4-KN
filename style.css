@@ -96,6 +96,7 @@ nav ul {
 .social-icons
 {
     justify-content: center;
+    border-radius: 38%;
 }
 
 .resize-icon
