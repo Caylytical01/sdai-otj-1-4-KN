@@ -103,6 +103,7 @@ nav ul {
 {
     width: 50px;
     height: 40px;
+    justify-content: center;
 }
 
 footer 
