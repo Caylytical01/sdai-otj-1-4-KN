@@ -95,7 +95,7 @@ nav ul {
 /* Footer */
 .social-icons
 {
-    justify-content: center;
+    justify-content: center, space-between;
     border-radius: 38%;
 }
 
