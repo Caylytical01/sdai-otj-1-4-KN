@@ -1,4 +1,4 @@
-function fadeIn(element, duration = 2000, delay = 500) {
+function fadeIn(element, duration = 15000, delay = 500) {
     // Set the initial opacity and transition for the element
     element.style.opacity = 0;
     element.style.transition = `opacity ${duration / 1000}s ease-in`;
@@ -12,5 +12,5 @@ function fadeIn(element, duration = 2000, delay = 500) {
 // Apply the fade-in effect to the image element after the DOM is fully loaded
 document.addEventListener("DOMContentLoaded", function() {
     var heroImage = document.querySelector('.hero-image');
-    fadeIn(heroImage, 20000, 500);  // Call fadeIn with a 2-second duration and 500ms delay
+    fadeIn(heroImage, 15000, 500);  // Call fadeIn with a 15-second duration and 500ms delay
 });
