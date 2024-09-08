@@ -1,16 +1,25 @@
-function fadeIn(element, duration = 15000, delay = 500) {
-    // Set the initial opacity and transition for the element
+function fadeIn(element, duration) {
+    let opacity = 0;
     element.style.opacity = 0;
-    element.style.transition = `opacity ${duration / 1000}s ease-in`;
+    element.style.display = 'block';
 
-    // Delay the fade-in effect
-    setTimeout(function() {
-        element.style.opacity = 1;
-    }, delay);
+    const increment = 5 / duration;  // Increment based on duration
+
+    function increase() {
+        opacity += increment;
+        if (opacity <= 1) {
+            element.style.opacity = opacity;
+            // Continue the animation by calling increase function again
+            requestAnimationFrame(increase);
+        }
+    }
+
+    // Start the fade-in animation
+    increase();
 }
 
-// Apply the fade-in effect to the image element after the DOM is fully loaded
+// Apply the fade-in effect after the DOM is fully loaded
 document.addEventListener("DOMContentLoaded", function() {
-    var heroImage = document.querySelector('.hero-image');
-    fadeIn(heroImage, 15000, 500);  // Call fadeIn with a 15-second duration and 500ms delay
+    const heroImage = document.querySelector('.hero-image');
+    fadeIn(heroImage, 2000);  // Set the fade-in duration to 2 seconds (2000 ms)
 });
