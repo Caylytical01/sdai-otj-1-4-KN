@@ -27,11 +27,12 @@ document.addEventListener("DOMContentLoaded", function() {
     fadeIn(menu, 5000);  
 
     const devfavorites = document.querySelector('#dev-favorites');
-    fadeIn(devfavorites, 15000);  
+    fadeIn(devfavorites, 7000);  
 
     const location = document.querySelector('#location');
-    fadeIn(location, 15000);  
+    fadeIn(location, 8000);  
 
-
+    const hours = document.querySelector('#hours');
+    fadeIn(hours, 8000); 
 
 });
