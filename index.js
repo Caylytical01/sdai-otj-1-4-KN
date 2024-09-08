@@ -23,11 +23,11 @@ document.addEventListener("DOMContentLoaded", function() {
     const heroImage = document.querySelector('.hero-image');
     fadeIn(heroImage, 2000);  // Set the fade-in duration to 2 seconds (2000 ms)
 
-    const menu = document.querySelector('.menu');
+    const menu = document.querySelector('#menu');
     fadeIn(menu, 15000);  
 
-    const Devfavorites = document.querySelector('#Dev-favorites');
-    fadeIn(Devfavorites, 15000);  
+    const devfavorites = document.querySelector('#dev-favorites');
+    fadeIn(devfavorites, 15000);  
 
     const location = document.querySelector('#location');
     fadeIn(location, 15000);  
