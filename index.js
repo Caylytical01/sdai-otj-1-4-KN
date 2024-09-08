@@ -32,8 +32,6 @@ document.addEventListener("DOMContentLoaded", function() {
     const location = document.querySelector('#location');
     fadeIn(location, 15000);  
 
-    const hours = document.querySelector('#hours');
-    fadeIn(hours, 15000);  
 
 
 });
