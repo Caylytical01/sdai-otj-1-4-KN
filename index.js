@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", function() {
     fadeIn(heroImage, 2000);  // Set the fade-in duration to 2 seconds (2000 ms)
 
     const menu = document.querySelector('#menu');
-    fadeIn(menu, 15000);  
+    fadeIn(menu, 5000);  
 
     const devfavorites = document.querySelector('#dev-favorites');
     fadeIn(devfavorites, 15000);  
