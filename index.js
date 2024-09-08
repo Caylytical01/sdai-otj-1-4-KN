@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const menu = document.querySelector('.menu');
     fadeIn(menu, 15000);  
 
-    const Devfavorites = document.querySelector('#Devfavorites');
+    const Devfavorites = document.querySelector('#Dev-favorites');
     fadeIn(Devfavorites, 15000);  
 
     const location = document.querySelector('#location');
